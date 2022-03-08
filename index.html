@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>DUET CSE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="legendhome.css">
+
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+
+<link rel="shortcut icon" href="https://duet.edu.pk/wp-content/uploads/2016/04/duet_logo.png" type="image/x-icon"/>
+
+<link rel="icon" href="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\mobilecomp.jpg" style="border-radius:100%"/>
+</head>
+
+
+<body style="margin:0%">
+
+  <div class = "topnav">
+
+    <div class="sticky">
+  <a href = "D:\Website\legendnewcontact.html">CONTACT</a>  
+  
+  <a href = "D:\Website\legendnewfaculty.html">FACULTY</a>
+  <a class = "active" href = "D:\Website\legendcourses.html">COURSES</a>
+  <a href = "D:\Website\index.html">HOME</a>
+</div>
+</div>
+
+<div>
+    <div style="margin: 0px;" class="fade-in-image">
+<img src="D:\Website\Website pictures\1.jpg" alt="1.jpg" width="100%" ></div>
+</div>
+<div class='console-container'>
+  <span id='text'></span>
+  <div class='console-underscore' id='cursor'>|</div>
+</div>
+</div>
+ <!-- HJJB-->
+<script>
+
+typing_effect(['Dawood University of Engineering and Technology', 'Computer Systems Engineering Department'],
+            ['white', 'white']);
+
+      function typing_effect(words, colors) {
+
+      var cursor = document.getElementById('cursor'); //cursor
+      var text = document.getElementById('text') //text
+
+      var blink = true;
+      var wait = false;
+      var letters_count = 1;
+      var temp = 1;
+
+
+     
+      text.style.color = colors[0]
+      window.setInterval(function () { //wait between words when it starts writting
+        if (letters_count === 0 && wait === false) {
+          wait = true;
+
+          text.innerHTML = '' // leave a blank
+          window.setTimeout(function () {
+            var usedColor = colors.splice(0, 1)[0] //remove first element and get it as str
+            colors.push(usedColor);
+            var usedWord = words.splice(0, 1)[0]
+            words.push(usedWord);
+            temp = 1;
+            text.style.color = colors[0]
+            letters_count += temp;
+            wait = false;
+          }, 1000)
+        } else if (letters_count === words[0].length + 1 && wait === false) {
+          wait = true;
+          window.setTimeout(function () { //wait a bit until words finished and start deleting
+            temp = -1;
+            letters_count += temp;
+            wait = false;
+          }, 1000)
+        } else if (wait === false) { //write words                    
+          text.innerHTML = words[0].substr(0, letters_count)
+          letters_count += temp;
+        }
+      }, 120)
+      window.setInterval(function () {
+        if (blink) {
+          cursor.style.opacity = "0";
+          blink = false;
+        } else {
+          cursor.style.opacity = "1";
+          blink = true;
+        }
+      }, 400)
+    }
+</script>
+
+<!--</div>
+<div class="col">
+  <br><br><br><br><br>
+  <h1 style="font-family: 'Courier New', Courier, monospace">Enter your credit card no.</h1>  
+</div></div></div>-->
+<br><br><br><br><br><br>
+<!--<div class="container">
+<div class="row">
+<div class="col">
+  <h3>An Insight of Computer Systems Engineering</h3>
+  <img class="mySlides" src="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\artificial-intelligence-3382507__480.jpg" alt="artificial-intelligence-3382507__480.jpg" style="width:100%">
+  <img class="mySlides" src="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\istockphoto-1169929038-612x612.jpg" alt="istockphoto-1169929038-612x612.jpg" style="width:100%">
+  <img class="mySlides" src="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\istockphoto-1173805290-612x612.jpg" alt="istockphoto-1173805290-612x612.jpg" style="width:100%">
+
+</div>
+<div class="col">
+  <h3>Dawood University at a Glance</h3>
+  <img class="mySlides" src="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\images (4).jpeg" alt="images (4).jpeg" style="width:100%">
+  <img class="mySlides" src="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\images (5).jpeg" alt="images (5).jpeg" style="width:100%">
+  <img class="mySlides" src="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\laptop-5673901__480.webp" alt="laptop-5673901__480.webp" style="width:100%">
+</div>
+</div>
+</div> -->
+
+
+
+
+<em><h1 class="typewriter" style="color:darkblue; font: size 500px; text-align: center; font-family: 'Courier New', Courier, monospace;">Computer Systems Engineering Department</h1></em>
+
+<br><br><br><br><br>
+<div class="back">
+  <div  style="padding-right: 50px; padding-left: 30px">
+  <div class="row">
+<div class="col">
+  <img class="mySlides" src="D:\Website\Website pictures\14.jpg" alt="" style="width:650px">
+  <img class="mySlides" src="D:\Website\Website pictures\11.jpg" alt="" style="width:650px">
+  <img class="mySlides" src="D:\Website\Website pictures\13.jpg" alt="" style="width:650px">
+
+</div>
+
+<div style="padding-left: 30px" class="col">
+ <br>
+  <em><h3>An Insight of Dawood University of Engineering and Technology</h3></em><br>
+<p style="font-size: medium;">Dawood University of Engineering and Technology is the University of Relevance, and lives by its name. The university provides all categories of engineering whilst keeping up with the ever-changging pace of technology. It strives to ptovide the pre-engineer students, the information required for them to implement and practice innovative-like improvements in the technological field. The computer systems engineering department wraps all of the good computer stuff in the carefully-picked courses that subtly cover all areas of computer in general. It platforms every and any IT relevant studies, and establishes the computer know-how subjects, theoretically and practically, both. :)</p>
+</div></div>
+</div>
+  </div>
+
+
+<script>
+  var myIndex=0;
+  carousel();
+  function carousel() {
+    var i;
+    var x=document.getElementsByClassName("mySlides");
+    for(i=0; i<x.length; i++) {
+      x[i].style.display="none";
+    }
+    myIndex++;
+    if(myIndex>x.length) {
+      myIndex=1
+    }
+    x[myIndex-1].style.display="block";
+    setTimeout(carousel, 2000);
+  }
+</script>
+
+
+<br><br><br><br>
+
+<i><h1 style="text-align:center;font-size:50px;color:darkblue">Affiliated with:</h1></i>
+<br><br>
+  <div class="container" style="text-align:center; padding-left:5px">
+    <div class="row" style="padding-right:0px;">
+  <div class="col">
+<img src="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\pec_logocropped.png" alt="pec_logocropped.png" width="250" height="200" style="padding-left:80px;">
+
+  </div>
+  <div class="col">
+    <img src="C:\Users\Mishaal\OneDrive\Desktop\Website\Website Pictures\HEC-Logo.png" alt="HEC-Logo.png" width="250" height="200" style="padding-right:80px;">
+  </div>
+    </div>
+  </div>
+
+
+<br><br><br><br>
+
+
+
+
+
+<div class="nutshell">
+  <div  style="padding-right: 70px; padding-left: 50px">
+    <div class="row">
+  <div class="col">
+    <br>
+    <br>
+    
+   <em> <h3>Computer Systems Engineering in a Nutshell</h3></em>
+    <br>
+    <p style="font-size:medium">Computer systems engineering is a discipline that embodies the science and technology of design, construction, implementation, and maintenance of software and hardware components of modern computing systems, computer-controlled equipment, and networks of intelligent devices. It is solidly grounded in the theories and principles of computing, mathematics, science and engineering, and it applies these theories and principles to solve technical problems through the design of computing hardware, software, networks, and processes.
+ Computer systems engineering is a discipline that embodies the science and technology of design, construction, implementation, and maintenance of software and hardware components of modern computing systems, computer-controlled equipment, and networks of intelligent devices.</p>
+    
+</div>
+<div class="col" style="padding-top: 5%; padding-bottom: 5%;">
+  <img class="slides" src="D:\Website\Website pictures\5.jpg" alt="1.jpg" style="width:650px">
+    <img class="slides" src="D:\Website\Website pictures\6.jpg" alt="2.jpg" style="width:650px">
+    <img class="slides" src="D:\Website\Website pictures\7.jpg" alt="3.jpg" style="width:650px">
+  </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var myIndex=0;
+  carousel();
+  function carousel() {
+    var i;
+    var x=document.getElementsByClassName("slides");
+    for(i=0; i<x.length; i++) {
+      x[i].style.display="none";
+    }
+    myIndex++;
+    if(myIndex>x.length) {
+      myIndex=1
+    }
+    x[myIndex-1].style.display="block";
+    setTimeout(carousel, 3000);
+  }
+</script>
+<br><br><br><br>
+  <br><br><br><br>
+<div class="container">
+  <div class="row">
+
+    <div class="column">
+      <h3>Cloud Computing</h3>
+      <p>Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.</p>
+    </div> 
+
+    <div class="column">
+      <h3>Cyber Security</h3>
+      <p>Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks.</p>
+    </div> 
+
+    <div class="column">
+      <h3>Artificial Intelligence</h3>        
+      <p>Artificial intelligence (AI) is the ability of a computer or a robot controlled by a computer to do tasks that are usually done by humans because they require human intelligence and discernment.</p>
+      </div> 
+    </div>
+  </div>
+  <br><br><br><br><br>
+<div style="text-align:center">
+<video src="F:\Captures\video.mp4" alt="video.mp4" controls autoplay loop width="1000px" height="500px"></video>
+</div>
+<br>
+</section>
+<br><br><br><br><br>
+
+<div class="col-lg-12" style="margin-top: 5px;text-align: justify; padding-top: 0px;">
+<h1 style="text-align:center;">Subscribe to Our Newsletter</h1>
+<p style="text-align:center;">Hey, you want some good news? Subscribe</p>
+<form method="post" action="http://www.duetcseedu.wordpress.com">
+  <input type="hidden" name="recipient" value="duetcse2022@gmail.com">
+  <input type="hidden" name="subject" value="Email Newsletter">
+  <input type="hidden" name="redirect" value="legend6.html">
+  <p style="text-align:center;"><label>Enter Your Email: </label>
+<input email="email" type="text" size="40" style="text-align:center;"><button class="btn btn-primary">SUBSCRIBE</button></p>
+
+</div>
+<br>
+
+
+<br><br><br><br><br>
+</body>
+<br><br><br><br><br>
+<footer>
+<div style="text-align:left; padding-left:50px; padding-bottom:50px"class="container">
+  <div class="row">
+
+    <div class="column">
+     
+      <p>Dawood University of Engineering & Technology</p>
+      <p></p>M.A Jinnah Road, Karachi.</p>
+      
+    <p><a href="mailto: duetcse2022@gmail.com">duetcse2022@gmail.com</a></p>
+      <p>(021) 563578087</p>
+      
+<p class="fa fa-twitter" style="font-size:15px; color:white;"></p>
+
+<p class="fa fa-google" style="font-size:15px; color:white;"></p>
+
+<p class="fa fa-facebook" style="font-size:15px; color:white;"></p>
+
+<p class="fa fa-instagram" style="font-size:15px; color:white;"></p>
+
+
+      <br>  <br>  
+<p>DUET CSE. All rights reserved.<br></p>
+    </div> 
+
+    </div>
+  </div>
+  
+</footer>
+</html>
